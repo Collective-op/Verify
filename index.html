@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Final</title>
+</head>
+<body>
+    Please use sha256 to encrypt a string that has 6 letters in it and starts with C ends with o Remember The Objective.
+    <input type="text" id="text">
+    <input type="text" id="word" value="Enter word here">
+    <button onclick="check()">CHECK</button>
+    <script>
+        function check() {
+            var x = document.getElementById('text').value;
+            var y = document.getElementById('word').value;
+            if (x == 'df12b8f89b61274c73291296ec828eab61202f5863680ec6003682821d77fd31') {
+                window.location.href = 'https://github.com/fazelastblood/' + y
+            } else {
+                console.log('wrong')
+            }
+        }
+        
+    </script>
+</body>
+</html>
